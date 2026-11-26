@@ -1,0 +1,44 @@
+{
+  "id": "midnight_jazz",
+  "name": "Midnight Jazz",
+  "description": "Extended ii-V-I jazz chords, warm upright-style plucked bass, brush-like percussion, subtle vinyl crackle.",
+  "root_key": "F",
+  "default_mode": "major",
+  "bpm_offset": -1.0,
+  "swing": 0.14,
+  "synths": {
+    "harmony": "fm",
+    "melody": "pluck",
+    "bass": "pluck",
+    "atmosphere": "cnoise"
+  },
+  "drum_kit": {
+    "kick": "bd_boom",
+    "snare": "drum_snare_soft",
+    "hat": "drum_cymbal_closed",
+    "rim": "elec_tick",
+    "accent": "drum_splash_soft"
+  },
+  "atmosphere_mode": "vinyl_crackle",
+  "layer_volumes": {
+    "harmony": 0.78,
+    "melody": 0.64,
+    "bass": 0.78,
+    "drums": 0.58,
+    "atmosphere": 0.36
+  },
+  "fx_profile": {
+    "base_cutoff": 80.0,
+    "base_reverb": 0.40,
+    "base_delay": 0.18,
+    "warmth_lpf": 86.0
+  },
+  "progressions": {
+    "BULLISH": ["Fmaj9", "Dm9", "Gm9", "C13"],
+    "BEARISH": ["Dm9", "Gm9", "C7", "Fmaj7"],
+    "SIDEWAYS": ["Gm9", "C13", "Fmaj9", "D7"],
+    "COMPRESSION": ["Fsus4", "Csus4", "Gm9", "Csus4"],
+    "HIGH_VOLATILITY": ["Gm9", "C13", "Am7", "D7"],
+    "MARKET_SHOCK": ["Gm9", "Db9", "C13", "Fmaj9"]
+  }
+}

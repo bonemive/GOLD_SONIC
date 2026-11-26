@@ -1,0 +1,44 @@
+{
+  "id": "market_pulse",
+  "name": "Market Pulse",
+  "description": "Electronic ambient pad, rhythmic momentum arpeggios, dynamic sub-pulse bass, adaptive percussion.",
+  "root_key": "A",
+  "default_mode": "minor",
+  "bpm_offset": 4.0,
+  "swing": 0.02,
+  "synths": {
+    "harmony": "prophet",
+    "melody": "blade",
+    "bass": "subpulse",
+    "atmosphere": "dark_ambience"
+  },
+  "drum_kit": {
+    "kick": "bd_haus",
+    "snare": "elec_snare",
+    "hat": "elec_hi_snare",
+    "rim": "elec_blip2",
+    "accent": "ambi_lunar_land"
+  },
+  "atmosphere_mode": "electronic_ambient",
+  "layer_volumes": {
+    "harmony": 0.72,
+    "melody": 0.70,
+    "bass": 0.80,
+    "drums": 0.74,
+    "atmosphere": 0.48
+  },
+  "fx_profile": {
+    "base_cutoff": 92.0,
+    "base_reverb": 0.56,
+    "base_delay": 0.36,
+    "warmth_lpf": 104.0
+  },
+  "progressions": {
+    "BULLISH": ["Cmaj9", "Gmaj7", "Am9", "Fmaj9"],
+    "BEARISH": ["Am9", "Fmaj7", "Dm9", "Em7"],
+    "SIDEWAYS": ["Am9", "Em7", "Fmaj9", "G13"],
+    "COMPRESSION": ["Asus2", "Esus4", "Fsus2", "Esus4"],
+    "HIGH_VOLATILITY": ["Am7", "G13", "Fmaj7", "Em7"],
+    "MARKET_SHOCK": ["Am7", "Bb7", "Em7", "Am9"]
+  }
+}

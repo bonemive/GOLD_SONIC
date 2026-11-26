@@ -1,0 +1,44 @@
+{
+  "id": "golden_sunrise",
+  "name": "Golden Sunrise",
+  "description": "Warm Major 7 & Major 9 piano harmonies, gentle sub bass, relaxed sunlit lo-fi groove.",
+  "root_key": "C",
+  "default_mode": "major",
+  "bpm_offset": 0.0,
+  "swing": 0.05,
+  "synths": {
+    "harmony": "piano",
+    "melody": "kalimba",
+    "bass": "tri",
+    "atmosphere": "hollow"
+  },
+  "drum_kit": {
+    "kick": "bd_haus",
+    "snare": "drum_snare_soft",
+    "hat": "drum_cymbal_pedal",
+    "rim": "perc_bell",
+    "accent": "drum_cymbal_soft"
+  },
+  "atmosphere_mode": "warm_pad",
+  "layer_volumes": {
+    "harmony": 0.84,
+    "melody": 0.66,
+    "bass": 0.70,
+    "drums": 0.56,
+    "atmosphere": 0.42
+  },
+  "fx_profile": {
+    "base_cutoff": 88.0,
+    "base_reverb": 0.46,
+    "base_delay": 0.22,
+    "warmth_lpf": 94.0
+  },
+  "progressions": {
+    "BULLISH": ["Cmaj9", "Am9", "Fmaj9", "G13"],
+    "BEARISH": ["Am9", "Fmaj7", "Dm9", "E7"],
+    "SIDEWAYS": ["Cmaj7", "Dm9", "Em7", "Fmaj9"],
+    "COMPRESSION": ["Csus2", "Fsus2", "Gsus4", "Csus2"],
+    "HIGH_VOLATILITY": ["Fmaj9", "G13", "Em7", "Am9"],
+    "MARKET_SHOCK": ["Cmaj7", "Abmaj7", "Gsus4", "Cmaj9"]
+  }
+}

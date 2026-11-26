@@ -1,0 +1,44 @@
+{
+  "id": "rainy_night",
+  "name": "Rainy Night Lo-fi",
+  "description": "Warm electric piano, dusty soft drums, vinyl & rain texture, melancholic Minor 7 / Jazz voicings.",
+  "root_key": "D",
+  "default_mode": "minor",
+  "bpm_offset": -2.0,
+  "swing": 0.08,
+  "synths": {
+    "harmony": "rhodey",
+    "melody": "pretty_bell",
+    "bass": "sine",
+    "atmosphere": "bnoise"
+  },
+  "drum_kit": {
+    "kick": "bd_tek",
+    "snare": "sn_dub",
+    "hat": "drum_cymbal_closed",
+    "rim": "perc_snap",
+    "accent": "elec_cymbal"
+  },
+  "atmosphere_mode": "rain_vinyl",
+  "layer_volumes": {
+    "harmony": 0.80,
+    "melody": 0.58,
+    "bass": 0.74,
+    "drums": 0.62,
+    "atmosphere": 0.52
+  },
+  "fx_profile": {
+    "base_cutoff": 76.0,
+    "base_reverb": 0.52,
+    "base_delay": 0.28,
+    "warmth_lpf": 84.0
+  },
+  "progressions": {
+    "BULLISH": ["Fmaj9", "G13", "Em7", "Am9"],
+    "BEARISH": ["Dm9", "Gm7", "A7b9", "Dm9"],
+    "SIDEWAYS": ["Dm9", "G13", "Cmaj9", "A7"],
+    "COMPRESSION": ["Dsus4", "Asus4", "Gm9", "Asus4"],
+    "HIGH_VOLATILITY": ["Dm7", "Bbmaj7", "Gm7", "A7"],
+    "MARKET_SHOCK": ["Dm7", "Eb7", "A7", "Dm9"]
+  }
+}

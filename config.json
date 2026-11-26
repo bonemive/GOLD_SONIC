@@ -1,0 +1,91 @@
+{
+  "app_name": "GOLD SONIC",
+  "version": "1.0.0",
+  "mt5": {
+    "terminal_path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+    "symbol": "GOLD#",
+    "candidate_symbols": [
+      "GOLD#",
+      "XAUUSD",
+      "XAUUSDm",
+      "GOLD",
+      "GOLD24-7#"
+    ],
+    "poll_interval_ms": 500,
+    "candle_refresh_seconds": 5.0,
+    "history_bars": 260,
+    "max_spread_points": 120,
+    "stale_tick_seconds": 20.0,
+    "reconnect_interval_seconds": 5.0,
+    "timeout_ms": 15000
+  },
+  "market_intelligence": {
+    "ema_fast": 20,
+    "ema_mid": 50,
+    "ema_slow": 200,
+    "atr_period": 14,
+    "rsi_period": 14,
+    "adx_period": 14,
+    "atr_norm_window": 60,
+    "realized_vol_window": 20,
+    "momentum_window": 10,
+    "regime_confirm_cycles": 3,
+    "regime_min_hold_seconds": 10.0,
+    "shock_atr_multiplier": 2.5,
+    "shock_zscore_threshold": 3.2,
+    "shock_cooldown_seconds": 18.0,
+    "smoothing_alpha": 0.22
+  },
+  "musical_engine": {
+    "default_style": "golden_sunrise",
+    "bpm_min": 68.0,
+    "bpm_max": 100.0,
+    "bpm_slew_rate_per_sec": 0.65,
+    "beats_per_bar": 4,
+    "phrase_bars": 4,
+    "section_bars": 8,
+    "arrangement_bars": 16,
+    "master_volume": 0.8,
+    "layer_defaults": {
+      "harmony": {
+        "enabled": true,
+        "volume": 0.78
+      },
+      "melody": {
+        "enabled": true,
+        "volume": 0.65
+      },
+      "bass": {
+        "enabled": true,
+        "volume": 0.75
+      },
+      "drums": {
+        "enabled": true,
+        "volume": 0.68
+      },
+      "atmosphere": {
+        "enabled": true,
+        "volume": 0.45
+      }
+    }
+  },
+  "osc": {
+    "host": "127.0.0.1",
+    "port": 4560,
+    "feedback_port": 4561,
+    "min_send_interval_ms": 250,
+    "heartbeat_interval_seconds": 2.0,
+    "sonic_pi_timeout_seconds": 6.5,
+    "stale_state_seconds": 15.0
+  },
+  "dashboard": {
+    "refresh_interval_ms": 250,
+    "max_log_lines": 250
+  },
+  "logging": {
+    "level": "INFO",
+    "log_dir": "logs",
+    "max_bytes": 5242880,
+    "backup_count": 5
+  }
+}
